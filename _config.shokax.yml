@@ -1,0 +1,21 @@
+alternate: "Lyric's Space" # 站点头部大字 Logo 标语
+
+# 开启平滑自动滚动与页面切换加载动画
+auto_scroll: true
+loader:
+  start: true # 进入页面时显示加载动画
+  switch: true # 切换页面时显示加载动画
+
+# 配置默认背景音乐列表 (Meting API 自动解析)
+audio:
+  - title: "钢琴纯音乐"
+    list:
+      - "https://music.163.com/#/playlist?id=2943811283"
+  - title: "轻快和弦"
+    list:
+      - "https://music.163.com/#/playlist?id=2031842656"
+
+# 侧边栏与个人头像设置
+sidebar:
+  position: left
+  avatar: avatar.jpg # 在 source/avatar.jpg 放置头像
