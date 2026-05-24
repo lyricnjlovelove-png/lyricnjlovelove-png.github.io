@@ -1,0 +1,3 @@
+[submodule "themes/shokax"]
+	path = themes/shokax
+	url = git@github.com:lyricnjlovelove-png/hexo-theme-shokaX.git
