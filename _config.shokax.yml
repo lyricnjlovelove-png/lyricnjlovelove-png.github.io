@@ -1,4 +1,5 @@
 alternate: "Lyric's Space" # 站点头部大字 Logo 标语
+darkmode: false
 
 # 开启平滑自动滚动与页面切换加载动画
 auto_scroll: true
