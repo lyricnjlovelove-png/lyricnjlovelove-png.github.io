@@ -4,8 +4,8 @@ darkmode: false
 # 开启平滑自动滚动与页面切换加载动画
 auto_scroll: true
 loader:
-  start: true # 进入页面时显示加载动画
-  switch: true # 切换页面时显示加载动画
+  start: true
+  switch: true
 
 # 配置默认背景音乐列表 (Meting API 自动解析)
 audio:
@@ -16,4 +16,46 @@ audio:
 # 侧边栏与个人头像设置
 sidebar:
   position: left
-  avatar: avatar.jpg # 在 source/avatar.jpg 放置头像
+  avatar: avatar.jpg
+
+# 页脚设置
+footer:
+  since: 2026
+  icon:
+    name: sakura rotate
+    color: "#ffc0cb"
+  count: true
+  powered: true
+
+# 社交链接 (格式: URL || 图标 || 颜色)
+social:
+  github: https://github.com/lyricnjlovelove-png || github || "#191717"
+  email: mailto:lyricnjlovelove@gmail.com || envelope || "#55acd5"
+
+# 本地搜索 (无需后端API)
+pagefind:
+  enable: true
+
+# 性能优化
+performance:
+  preConnect:
+    - "https://s4.zstatic.net"
+    - "https://at.alicdn.com"
+  dnsPrefetch:
+    - "https://api.injahow.cn"
+
+# 禁用不需要的功能模块以减小 JS bundle
+modules:
+  debug: false
+  player: true
+  fireworks: true
+  visibilityListener: true
+  tabs: true
+  quiz: false
+  cloudflarePatch: false
+
+# 评论系统 (Waline — 需要部署服务端后再开启)
+waline:
+  enable: false
+  serverURL: ''
+  lang: zh-CN
