@@ -44,6 +44,9 @@ jobs:
       - name: Hexo Generate Static Pages
         run: pnpm run build
 
+      - name: Generate Pagefind Search Index
+        run: npx pagefind --site public
+
       - name: Upload Pages Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
