@@ -9,12 +9,9 @@ loader:
 
 # 配置默认背景音乐列表 (Meting API 自动解析)
 audio:
-  - title: "钢琴纯音乐"
+  - title: "Love Story"
     list:
-      - "https://music.163.com/#/playlist?id=2943811283"
-  - title: "轻快和弦"
-    list:
-      - "https://music.163.com/#/playlist?id=2031842656"
+      - "https://music.163.com/#/song?id=19292984"
 
 # 侧边栏与个人头像设置
 sidebar:
